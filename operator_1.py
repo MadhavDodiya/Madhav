@@ -99,6 +99,6 @@ print("eo" not in "hello")
 # ------
 # 111
 
-print(((a<b) and (a>b)))
-print(((a<b) or ((a>b))))
-print((not (a<b)))
+# print(((a<b) and (a>b)))
+# print(((a<b) or ((a>b))))
+# print((not (a<b)))

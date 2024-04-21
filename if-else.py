@@ -20,9 +20,18 @@
 # -9 is negative number
 
 
-a=int(input("Enter Value of a :"))
+# a=int(input("Enter Value of a :"))
 
-if(a>=0):
-    print(a,"is a positive number")
+# if(a>=0):
+#     print(a,"is a positive number")
+# else:
+#     print(a,"is a Nagative number")
+
+
+num1 = int(input("Enter First Integer : "))
+num2 = int(input("Enter Second Integer : "))
+
+if num1==num2:
+    print("num1 and num2 are equal")
 else:
-    print(a,"is a Nagative number")
+    print("num1 and num2 are not equal")
