@@ -25,7 +25,7 @@
 # Percentage = 80.00
 
 
-#1. First Programe
+#1. Write a python program to accept two integers and check whether they are equal or not.
 num1 = int(input("Enter First Integer : "))
 num2 = int(input("Enter Second Integer : "))
 
@@ -34,6 +34,5 @@ if num1==num2:
 else:
     print("num1 and num2 are not equal")
     
-# 2. Second Programe
-
+# 2. Write a python program to accept two integers and find maximum.
 
