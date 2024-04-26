@@ -35,4 +35,15 @@ else:
     print("num1 and num2 are not equal")
     
 # 2. Write a python program to accept two integers and find maximum.
+def maxnumber(a, b):
+    if a > b:
+        return a
+    else:
+        return b
+num1 = int(input("Enter the first integer: "))
+num2 = int(input("Enter the second integer: "))
 
+max_num = maxnumber(num1, num2)
+print("The maximum number is:", max_num)
+
+# 3.Write a python program to read the roll no, name and marks of three subjects and calculate the total, percentage.
