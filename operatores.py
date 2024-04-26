@@ -25,7 +25,7 @@
 # Percentage = 80.00
 
 
-#1. Write a python program to accept two integers and check whether they are equal or not.
+# #1. Write a python program to accept two integers and check whether they are equal or not.
 num1 = int(input("Enter First Integer : "))
 num2 = int(input("Enter Second Integer : "))
 
