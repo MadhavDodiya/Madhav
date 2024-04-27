@@ -43,3 +43,36 @@ a=str(input("Enter value of a :"))
 print(type(a))
 
 # type casting(type conversion)=> int(),float(),str(),bool()
+
+# control structure => if,if-else.if-elseif-else,nested if
+
+# a=9
+
+# if (a<10):
+#     print("YES")
+# elif(a>10):
+#     print("NO")
+# elif(a>10):
+#     print("NO")
+# elif(a>10):
+#     print("NO")
+# else :
+#     print("same")
+
+# b=10
+
+# if(b<=10):
+#     if(b==10):
+#         print("DONE !!")
+
+
+
+# 1 variable user Value
+# positive negative zero
+
+
+
+# 5
+# positive number
+# -5
+# 0
