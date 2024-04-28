@@ -10,8 +10,8 @@
 
 
 
-# for a in range(10,-1,-1):
-#     print(a)
+for a in range(10,-1,-1):
+    print(a)
 
 # i=0
 # while(i<=10):
