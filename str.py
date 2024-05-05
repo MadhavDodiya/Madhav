@@ -44,12 +44,23 @@
 # mad h av do di ya
 # space=5
 
-str=input("Enter string ")
-a=str.find(" ")
+# str=input("Enter string ")
+# a=str.find(" ")
 
-cnt=0
-for a in str:
-    if a.isspace():
-        cnt=cnt+1
+# cnt=0
+# for a in str:
+#     if a.isspace():
+#         cnt=cnt+1
 
-print("space = ",cnt)
+# print("space = ",cnt)
+
+# star pyramid homework
+# *
+# ***
+# *****
+# *******
+# for a in range(1,5):
+#     for b in range(1,8):
+#         print()
+#         print("*",end=" ")
+#     print()
