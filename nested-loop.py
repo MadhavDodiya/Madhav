@@ -59,13 +59,17 @@
 # C B A
 # C B A
 
-c=67
-d=66
-e=65
-for a in range(1,3):
-    for b in range(1,4):
-        print(chr(c),chr(d),chr(e))
+# c=67
+# d=66
+# e=65
+# for a in range(1,3):
+#     for b in range(1,4):
+#         print(chr(c),chr(d),chr(e))
 
+for a in range(1,7):
+    for b in range(67,64,-1):
+        print(chr(b),end=" ")
+    print("\n")
 
 # for a in range(1,4):
 #     for b in range(1,7):
