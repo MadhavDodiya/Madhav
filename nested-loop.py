@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # a=int(input("Enter a :"))
 # b=int(input("Enter b :"))
 
@@ -73,7 +73,6 @@ for a in range(1,7):
     print("\n")
 
 # for a in range(1,4):
-=======
 # a=int(input("Enter a :"))
 # b=int(input("Enter b :"))
 
@@ -143,5 +142,4 @@ for a in range(1,7):
 
 
 # for a in range(1,4):
->>>>>>> eaaf7040b7b10bb840250baa9c8dbf456e9027ec
 #     for b in range(1,7):
