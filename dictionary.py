@@ -4,7 +4,7 @@ dct={
     "technology":("HTML",['bootstarp',"css"],"js"),
 }
 
-print(dct.items())
+# print(dct.items())
 # dct["name"]="om"
 # dct['color']="red"
 # print(dct["technology"][1][1])
