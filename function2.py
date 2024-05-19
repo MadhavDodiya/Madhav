@@ -35,10 +35,10 @@
 
 
 
-obj=open("file1.txt","r")
-# print(obj.read(5))
-for i in obj:
-    print(i)
+obj=open("file1.txt","a")
+print(obj.read(5))
+# for i in obj:
+#     print(i)
 obj.close()
 
 
