@@ -170,7 +170,6 @@
 
 
 # stone,paper,scissor
-
 # computer 
 # user 
 
@@ -197,8 +196,9 @@
 # OM , krish,Karm
 
 
-# 5 question
 
+
+# 5 question
 # 1. what is html?
 # a
 # b
@@ -225,3 +225,43 @@
 
 
 
+# student -> name,age,rollno
+# marks -> hindi,science,math
+# percentage ->percentage
+
+class Student:
+    def __init__(self):
+        self.name='madhav'
+        self.age=21
+        self.rollno=1
+        
+    def display(self):
+        print("Name is: ",self.name)
+        print("Age is: ",self.age)
+        print("Rollno is: ",self.rollno)
+        
+class Mark(Student):
+    def __init__(self):
+        self.hindi=95
+        self.science=80
+        self.math=70
+        Student.__init__(self)
+
+    def display1(self):
+        print("Hindi mark: ",self.hindi)
+        print("Science mark: ",self.science)
+        print("Math mark: ",self.math)
+        
+class Percentage(Mark):
+    def __init__(self):
+        Mark.__init__(self)
+        self.percentage=((self.hindi+self.science+self.math)/3)
+        
+    def display2(self):
+        print("Your percentage: ",self.percentage)
+        
+obj=Percentage()
+
+obj.display()
+obj.display1()
+obj.display2()
