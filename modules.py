@@ -1,8 +1,8 @@
 # modules -> internal,external
 # pip -> 
 
-import calendar
-print(calendar.day_name(2024,17)) 
+# import calendar
+# print(calendar.day_name(2024,17)) 
 
 
 # import emoji

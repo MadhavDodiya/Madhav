@@ -10,8 +10,8 @@
 
 
 
-for a in range(10,-1,-1):
-    print(a)
+# for a in range(10,-1,-1):
+#     print(a)
 
 # i=0
 # while(i<=10):
@@ -34,5 +34,13 @@ for a in range(10,-1,-1):
 # 9
 # 3 5 7 9
 
+a=int(input("Enter value: "))
+b=int(input("Enter value: "))
+
+for a in range(1,a):
+    for b in range(1,b):
+        print(b ,end=" ")
+    print("\n")
+    
 
 
