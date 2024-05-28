@@ -20,12 +20,14 @@ w=0
 r=0
 total=0
 
-
+print("================================================================")
 for a in range(len(Question)):
     print(Question[a])
     for Option in Options[a]:
           print(Option)
     user=input("Enter your answer : ").upper()
+    print("================================================================")
+    print("================================================================")
     if user==Answer[a]:
             # print("Correct!! \n")
         w=w+1
@@ -34,5 +36,7 @@ for a in range(len(Question)):
             # print("Wrong!!! \n")
         # print("incorrect! correct is",Answer[a],"\n")
 
-print("You got", w,"Question correct Out of", len(Question),"\n")
+print("You got", w,"Question correct Out of", len(Question))
 print("Your total score is: ", total)
+print("================================================================")
+
